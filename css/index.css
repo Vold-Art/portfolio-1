@@ -26,3 +26,43 @@ nav {
 body {
 	background: var(--secondary-color);
 }
+
+.project-container {
+	display: flex;
+	max-width: 1400px;
+	margin: 2rem auto;
+	border: 2px solid var(--primary-color);
+	padding: 1rem;
+	gap: 2rem;
+	align-items: flex-start;
+	background-color: #fff;
+}
+
+.project-container img {
+	width: 600px;
+	height: auto;
+	object-fit: cover;
+	border: 2px solid var(--primary-color);
+}
+
+.project-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.project-info h3 {
+	margin-top: 0;
+}
+
+.project-info p,
+a {
+	margin-top: 1rem;
+}
+
+/* Footer */
+
+footer {
+	height: 50px;
+	background: var(--primary-color);
+}

@@ -6,6 +6,7 @@
 	--primary-color: #272729;
 	--secondary-color: lightgrey;
 	--tertiary-color: #ffffff;
+	--link-color: darkred;
 	--hover-color: ;
 	--text-color: #ffffff;
 	--font-family-header: "Raleway", "sans-serif";
@@ -26,7 +27,7 @@ body {
 	height: 100%;
 	font-family: var(--font-family-body);
 	font-size: 1.125rem;
-	color: var(--text-color);
+	color: var(--primary-color);
 	line-height: 40px;
 	scroll-behavior: smooth;
 }
@@ -36,18 +37,20 @@ h2 {
 	font-family: var(--font-family-header);
 	font-size: 2rem;
 	font-weight: 400;
-	color: var(--text-color);
+	color: var(--tertiary-color);
+}
+
+h3 {
+	font-family: var(--font-family-header);
+	font-size: 2rem;
+	font-weight: 400;
 }
 
 main a {
+	text-decoration: none;
+	color: var(--link-color);
 }
 
 a:hover {
-}
-
-/* Buttons */
-
-.primary-button {
-}
-.primary-button:hover {
+	text-decoration: underline;
 }
