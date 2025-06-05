@@ -1,0 +1,28 @@
+@import url("./styles.css");
+
+/* Header */
+
+header {
+	top: 0;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5rem;
+	height: 200px;
+	background: var(--primary-color);
+	text-align: center;
+}
+
+#nav-logo {
+	max-height: 150px;
+}
+
+/* Body */
+
+body {
+	background: var(--secondary-color);
+}
