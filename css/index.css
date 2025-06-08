@@ -21,6 +21,15 @@ nav {
 	max-height: 150px;
 }
 
+@media (max-width: 1200px) {
+	nav {
+		flex-direction: column;
+		height: auto;
+		gap: 2rem;
+		padding: 2rem 0;
+	}
+}
+
 /* Body */
 
 body {
@@ -58,6 +67,39 @@ body {
 .project-info p,
 a {
 	margin-top: 1rem;
+}
+
+@media (max-width: 1450px) and (min-width: 1001px) {
+	.project-container {
+		max-width: 90%;
+	}
+
+	.project-container img {
+		width: 45%;
+	}
+
+	.project-info {
+		width: 50%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.project-container {
+		max-width: 90%;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.project-container img {
+		width: 100%;
+		max-width: 600px;
+	}
+
+	.project-info {
+		align-items: center;
+		width: 100%;
+	}
 }
 
 /* Footer */
